@@ -28,15 +28,15 @@ Users should be able to:
 
 ### Mobile View
 
-![](/src/images/mobile-view.png)
+![](/./src/images/screenshot/mobile-view.png)
 
 ### Desktop View
 
-![](/src/images/desktop-view.png)
+![](./src/images/screenshot/desktop-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-sass-flexbox-and-js-_aJ6ZwZ4al)
 - Live Site URL: [Netlify](https://bk-advice-generator.netlify.app/)
 
 ## My process
