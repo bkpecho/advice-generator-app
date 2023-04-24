@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: hsl(218, 23%, 16%);
+  background: hsl(218deg, 23%, 16%);
   padding: 15px;
 }
 
@@ -19,21 +19,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background: hsl(217, 19%, 24%);
+  background: hsl(217deg, 19%, 24%);
   border-radius: 10px;
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   padding: 2.5rem 1.5rem;
   text-align: center;
 }
 .card__title {
-  color: hsl(150, 100%, 66%);
+  color: hsl(150deg, 100%, 66%);
   text-transform: uppercase;
   letter-spacing: 0.25rem;
   font-size: 0.75rem;
 }
 .card__advice {
-  color: hsl(193, 38%, 86%);
+  color: hsl(193deg, 38%, 86%);
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -47,7 +47,7 @@ body {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-color: hsl(150, 100%, 66%);
+  background-color: hsl(150deg, 100%, 66%);
   border: 1px solid #323a49;
   cursor: pointer;
 }
@@ -61,4 +61,12 @@ body {
 .card__dice:focus {
   outline: none !important;
   cursor: default;
+}
+@media screen and (min-width: 500px) {
+  .card__advice {
+    font-size: 1.75rem;
+  }
+  .card__dice {
+    margin-bottom: -15.5%;
+  }
 }/*# sourceMappingURL=style.css.map */

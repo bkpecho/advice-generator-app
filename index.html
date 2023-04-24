@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/src/images/favicon-32x32.png"
+      href="src/images/favicon-32x32.png"
     />
 
     <!-- css link -->
@@ -42,16 +42,21 @@
       <h1 id="card__title" class="card__title"></h1>
 
       <p id="card__advice" class="card__advice"></p>
-      <img
-        src="./src/images/pattern-divider-mobile.svg"
-        class="card__divider"
-      />
+      <picture>
+        <source
+          media="(min-width: 500px)"
+          srcset="./src/images/pattern-divider-desktop.svg"
+        />
+        <img
+          class="card__divider"
+          src="./src/images/pattern-divider-mobile.svg"
+        />
+      </picture>
 
       <button id="button" class="card__dice">
         <img src="./src/images/icon-dice.svg" alt="Dice Icon" />
       </button>
     </main>
-    >
 
     <script src="./src/js/main.js"></script>
   </body>
