@@ -59,7 +59,7 @@ Through this project, I honed my skills in utilizing asynchronous JavaScript and
 
 ### Continued development
 
-Given the opportunity to further develop this project, I would aim to enhance its interactivity and engagement by incorporating a social media sharing feature to enable users to share the generated advice. Additionally, I would explore more advanced design techniques to create a more immersive and engaging experience for users.
+To further elevate the functionality and design of this project, I plan to implement a social media sharing feature that allows users to easily share the generated advice. Additionally, I aim to continue to explore advanced design techniques to create a more captivating and immersive user experience.
 
 ## Author
 
